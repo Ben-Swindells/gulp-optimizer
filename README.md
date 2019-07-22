@@ -8,7 +8,7 @@ Tool to optimise scripts and run scss live to a css file.
 
 <h3>Github setup</h3>
 
-Create your own branch by typing command: git checkout -b <yourBranchNameHere>
+Create your own branch by typing command: git checkout -b yourBranchNameHere
 
 1: Chose where you want to install this git hub file, etc local desktop or documents. Commandline into this destination and type git clone git@github.com:Ben-Swindells/gulp-optimizer.git<br>
 2: git push --set-upstream origin gulp-branch-1 //Switch to your branch.<br>
