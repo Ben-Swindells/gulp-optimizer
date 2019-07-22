@@ -22,4 +22,4 @@ Tool to optimise scripts and run scss live to a css file.
 
 <h3>Current Gulp Functions: </h3>
 
-- Gulp Watch(gulp watch): Watches for SCSS changes, write your SCSS in components/css/scss/styles.scss, saving this file will cause it to update the CSS file located here, components/cleaned-css/styles.css SASS will minify this CSS by default, this can be updated in the Gulp.js file.
+- Gulp Watch(gulp watch): Watches for SCSS changes, write your SCSS in components/css/scss/styles.scss, saving this file will cause it to update the CSS file located here, components/css/styles.css SASS will minify this CSS by default, this can be updated in the Gulp.js file.
