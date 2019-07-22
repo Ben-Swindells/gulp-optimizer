@@ -24,7 +24,7 @@ Tool to optimise scripts and run scss live to a css file.
 <h3>Current Gulp Functions: </h3>
 <p> Important note: Make sure to be in the correct file path location, e.g where your gulp files are stored.
 
--Gulp Cleaner(gulp clean): Uncompresses css files, add in the compressed css into components/scss/styles.scss and run gulp clean, the uncompressed css will then be placed into components/css-cleaned.styles.scss, copy this and place it back into your scss file. 
+- Gulp Cleaner(gulp clean): Uncompresses css files, add in the compressed css into components/scss/styles.scss and run gulp clean, the uncompressed css will then be placed into components/css-cleaned.styles.scss, copy this and place it back into your scss file. 
 
 - Gulp Watch(gulp watch): Watches for SCSS changes, write your SCSS in components/css/scss/styles.scss, saving this file will cause it to update the CSS file located here, components/css/styles.css SASS will minify this CSS by default, this can be updated in the Gulp.js file.
 
