@@ -13,3 +13,13 @@ Tool to optimise scripts and run scss live to a css file.
 3: git commit -m followed by update description "" // git commit -m "Updating this branch"<br>
 
 <h3>How to use Gulp:</h3>
+
+
+1: Commandline into your choosen folder destination<br>
+2: Download the latest files from this Git using a new branch.<br>
+3: SASS files can be created an used in the components/css/scss folder.<br>
+4: CSS files are located in components/css.<br>
+
+<h3>Current Gulp Functions: </h3>
+
+- Gulp Watch: Watches for SCSS changes, write you SCSS in components/css/scss/styles.scss, saving this file will cause it to update the CSS file located here, components/css/styles.css SASS will minify this CSS by default, this can be updated in the Gulp.js file.
