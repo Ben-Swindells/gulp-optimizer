@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap");
+
+html {
+    background: #fff !important
+}
+
+body {
+    background: none !important;
+    font-family: Georgia,Times,Times New Roman,serif !important
+}
+
+#mainContainer {
+    border: none !important;
+    box-shadow: none !important
+}
+
+h1,h2,h3,h4 {
+    font-family: Georgia,Times,Times New Roman,serif !important
+}
+
+.promo h1 {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    margin: 0 0 20px 0;
+    font-family: 'Oswald', sans-serif !important
+}
+
+.header {
+    font-size: 100px !important
+}
+
+.promo h2 {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 22px 0
+}
+
+.promo h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0
+}
+
+.promo h4 {
+    font-size: 20px;
+    margin: 0 0 20px 0
+}
+
+.promo .imgWrapper {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 20px 0
+}
+
+.promo .imgWrapper img {
+    max-width: 100%
+}
+
+span.red {
+    color: red
+}
+
+.clear {
+    clear: both
+}
+
+.promo p {
+    font-size: 18px;
+    margin: 0 0 20px 0
+}
+
+.promo ol,.promo ul {
+    padding: 0 30px 20px
+}
+
+.promo li {
+    font-size: 18px;
+    margin-bottom: 12px
+}
+
+.promo li:last-child {
+    margin-bottom: 0
+}
+
+.promo .checkList {
+    padding: 0 12px 20px
+}
+
+.promo .checkList li {
+    background: url("https://images.southbankresearch.com/images/icon-check.png") no-repeat left 4px/16px;
+    list-style: none;
+    padding: 0 0 0 26px
+}
+
+.promo p.quote {
+    background: #eee;
+    border-left: 4px solid #95a5a6;
+    padding: 14px;
+    margin: 0 0 14px 0
+}
+
+.promo p.quote .clear_quote {
+    display: block;
+    margin: 10px 0 0 0
+}
+
+.promo .image_right {
+    float: right;
+    max-width: 270px;
+    margin: 0 0 20px 20px
+}
+
+.subChoiceCopy {
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 14px;
+    font-size: 13px;
+    margin: 0 0 14px 0
+}
+
+.promo .pp {
+    float: right;
+    max-width: 140px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 14px 14px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.2
+}
+
+.choice .radio-button {
+    display: none
+}
+
+.choice .choiceName::after {
+    background: url(https://images.southbankresearch.com/images/icon-white-check-opium.png) no-repeat center center/18px #4c83cf;
+    position: absolute;
+    top: 50%;
+    left: -17px;
+    width: 34px;
+    height: 34px;
+    border-radius: 1000px;
+    content: '';
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%)
+}
+
+@media only screen and (max-width: 767px) {
+    .promo h1 {
+        font-size: 40px
+    }
+
+    .promo h2 {
+        font-size: 22px
+    }
+}
