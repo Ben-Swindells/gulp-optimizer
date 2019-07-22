@@ -8,6 +8,7 @@ Tool to optimise scripts and run scss live to a css file.
 
 <h3>Github setup</h3>
 
+1: Chose where you want to install this git hub file, etc local desktop or documents. Commandline into this destination and type git clone git@github.com:Ben-Swindells/gulp-optimizer.git<br>
 1: git push --set-upstream origin gulp-branch-1 //Switch to your branch.<br>
 2: git add, followed by the file name you want to add etc. git add myfile.txt<br>
 3: git commit -m followed by update description "" // git commit -m "Updating this branch"<br>
